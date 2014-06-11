@@ -1,0 +1,76 @@
+body{
+    background-image: url('bg_site.png');
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(font_01.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: Title;
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+div.game-container{
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 0 30px #000000;
+}
+
+div.first-line, div.second-line, div.third-line, div.forth-line, div.information-parent{
+    width: 800px;
+    height: 100px;
+}
+
+div.white-box-inactive{
+    width: 198px;
+    height: 98px;
+    background-color: #e7e7e7;
+    float: left;
+    border:1px solid #1B1B1B;
+}
+
+div.white-box-active{
+    width: 198px;
+    height: 98px;
+    background-color: #ffffff;
+    float: left;
+    border:1px solid #1B1B1B;
+}
+
+div.black-box-inactive{
+    width: 198px;
+    height: 98px;
+    background-color: #131313;
+    float: left;
+    border:1px solid #1B1B1B;
+}
+
+div.black-box-active{
+    width: 198px;
+    height: 98px;
+    background-color: #000000;
+    float: left;
+    border:1px solid #1B1B1B;
+}
+
+div.information{
+    width: 198px;
+    height: 98px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 45px;
+    color: #717171;
+    background-color: #323232;
+    float: left;
+    font-weight: bold;
+    border:1px solid #1B1B1B;
+}
